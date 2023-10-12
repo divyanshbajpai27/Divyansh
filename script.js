@@ -1,6 +1,3 @@
-
-
-//Navigation Glass Morphism
 window.addEventListener('scroll', function () {
     var navitems = document.getElementById('nav1');
     var scrolled = window.scrollY > 50;
@@ -12,7 +9,6 @@ window.addEventListener('scroll', function () {
     }
 });
 
-//Text Caraousel
 document.addEventListener('DOMContentLoaded', function () {
     const slides = document.querySelectorAll('.slide');
     let currentSlide = 0;
@@ -44,4 +40,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
     showSlide(); // Immediately show the first slide
 });
-
