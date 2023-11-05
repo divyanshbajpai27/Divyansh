@@ -116,6 +116,18 @@ h1 {
     animation-delay: 1.2s;
 }
 
+.slide-fade-in:nth-child(7) {
+    animation-delay: 1.4s;
+}
+
+.slide-fade-in:nth-child(8) {
+    animation-delay: 1.6s;
+}
+
+.slide-fade-in:nth-child(9) {
+    animation-delay: 1.8s;
+}
+
 @keyframes slideFadeIn {
     0% {
         opacity: 0;
@@ -225,7 +237,11 @@ h5 {
     position: relative;
 }
 
-.sec2 .col-lg-8 .layers {
+.row{
+    justify-content: flex-end;
+}
+
+.sec2 .one .layers {
     width: 13%;
     position: absolute;
     top: -30px;
@@ -331,8 +347,8 @@ h5 {
     transform: translateY(10px);
 }
 
-.blockbox {
-    width: 100%;
+.blockboxb {
+    width: 730px;
     height: 500px;
     padding: 20px;
     border-radius: 50px;
@@ -341,7 +357,23 @@ h5 {
     overflow: hidden;
 }
 
-.blockbox:hover {
+.blockboxs {
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, rgb(3, 13, 70), rgb(0, 0, 0));
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    overflow: hidden;
+}
+
+.blockboxb:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 90px 0px #00000048;
+    background-clip: padding-box;
+}
+
+.blockboxs:hover {
     transform: translateY(-5px);
     box-shadow: 0px 5px 90px 0px #00000048;
     background-clip: padding-box;
