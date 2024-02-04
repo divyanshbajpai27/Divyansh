@@ -45,3 +45,26 @@ document.addEventListener('DOMContentLoaded', function () {
     showSlide(); // Immediately show the first slide
 });
 
+//pdf downloader
+document.getElementById('downloadButton').addEventListener('click', function() {
+    downloadPDF();
+});
+
+function downloadPDF() {
+    // Replace 'YOUR_RAW_PDF_URL' with the actual raw PDF URL from GitHub
+    var pdfUrl = 'Resume_01-2024.pdf';
+    
+    // Create a temporary link element
+    var link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'DB-Resume.pdf';
+    
+    // Append the link to the body
+    document.body.appendChild(link);
+    
+    // Trigger the click event on the link
+    link.click();
+    
+    // Remove the link from the body
+    document.body.removeChild(link);
+}

@@ -336,7 +336,7 @@ h5 {
     height: 500px;
     padding: 20px;
     border-radius: 50px;
-    background: linear-gradient(145deg, rgb(189 40 175), rgb(47 147 182));
+    background: linear-gradient(145deg, rgb(0 177 255), rgb(0 65 195));
     transition: transform 0.3s ease, box-shadow 0.5s ease;
     overflow: hidden;
 }
