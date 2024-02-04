@@ -71,5 +71,5 @@ function downloadPDF() {
 
 function designpage() {
     // Redirect to another webpage
-    window.location.href = "Design/design.html";
+    window.location.href = "Divyansh/Design/design.html";
 }
