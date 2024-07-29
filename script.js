@@ -52,7 +52,7 @@ document.getElementById('downloadButton').addEventListener('click', function() {
 
 function downloadPDF() {
     // Replace 'YOUR_RAW_PDF_URL' with the actual raw PDF URL from GitHub
-    var pdfUrl = 'Resume_01-2024.pdf';
+    var pdfUrl = 'Assets/Resume_01-2024.pdf';
     
     // Create a temporary link element
     var link = document.createElement('a');
